@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CSDN</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="load_failed">逗我呢，没网络啊...</string>
+
+    <string name="content">正文</string>
+    <string name="csdn">CSDN资讯</string>
+
+    <string name="yejie">业界</string>
+    <string name="yidong">移动开发</string>
+    <string name="yunjisuan">云计算</string>
+    <string name="yanfa">软件研发</string>
+</resources>

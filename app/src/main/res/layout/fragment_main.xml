@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<extras.pulltorefresh.PullToRefreshListView-->
+        <!--android:id="@+id/id_pulltorefresh"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:divider="@android:color/transparent"-->
+        <!--android:dividerHeight="8dp"-->
+        <!--android:fadingEdge="none"-->
+        <!--ptr:ptrMode="both" />-->
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/id_swiperefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/id_recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+</LinearLayout>
